@@ -85,9 +85,9 @@ header nav {
 }
 
 .top-content {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	padding-bottom: 45px;
 	border-bottom: 1px solid black;
 }
 
@@ -95,23 +95,55 @@ header nav {
 	font-size: 25px;
 }
 
+
+.middle-content {
+	display: flex;
+	flex-wrap: wrap;
+	width: 880px;
+	justify-content: space-between;
+
+}
 .card-content {
 	border: 1px solid black;
-	width: 40%;
+	width: 47%;
 	padding: 15px;
 	background: lightgrey;
-	display: flex;
 	flex-direction: column;
-
+	margin-bottom: 45px;
 }
 
 .card-content button {
 	border: 1px solid black;
-	width: 180px;
+	width: 150px;
 	padding: 10px 30px 10px 30px;
 	margin-top: 15px;
 	border-radius: 5px;
-	
+}
 
+.bottom-content {
+	
+	border-top: 1px solid black;
+	padding-top: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-text-content {
+	width: 47%;
+	display: flex;		
+	flex-direction: column;
+	justify-content: space-between;
 
 }
+
+.bottom-content img {
+	width: 47%;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 120px;
+}
+
+
