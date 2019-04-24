@@ -84,15 +84,34 @@ header nav {
 	margin-bottom: 25px;
 }
 
-.nav {
-	justify-content: flex-start;
+.top-content {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
 }
 
-
-header img.logo{
-align-self: center;
+.text-content h1 {
+	font-size: 25px;
 }
 
-header nav a {
+.card-content {
+	border: 1px solid black;
+	width: 40%;
+	padding: 15px;
+	background: lightgrey;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.card-content button {
+	border: 1px solid black;
+	width: 180px;
+	padding: 10px 30px 10px 30px;
+	margin-top: 15px;
+	border-radius: 5px;
 	
+
+
 }
