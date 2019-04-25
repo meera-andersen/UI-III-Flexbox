@@ -117,7 +117,7 @@ header nav {
 }
 
 .bottom-content {
-	
+	margin-top: 30px;
 	border-top: 1px solid black;
 	padding-top: 45px;
 	display: flex;
@@ -143,3 +143,76 @@ footer {
 }
 
 
+/* ..................HOME PAGE................... */
+
+.hero {
+	margin-top: 40px;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.hero-text h1 {
+	 font-size: 75px;
+	 margin-right: 20px;	
+}
+
+.hero-text button{
+	font-size: 20px;
+    padding: 5px 40px 5px 40px;	
+}
+
+.hero img {
+	margin-left: 20px;
+}
+
+.home-top-content {
+	display: flex;
+	border-top: 1px solid black;
+	padding-top: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px
+}
+
+
+.home-text-content {
+	width: 50%
+}
+
+.home-bottom-content {
+	margin-top: 30px;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 30px;
+}
+
+.bottom-text-content {
+	display: flex;
+	width: 95%;
+	
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 30px;
+	height: 130px;
+
+}
+
+/* .home-top-content .home-text-content {
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+} */
+/* .home-top-content {
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 1px solid black;
+	padding-top: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px
+} */
