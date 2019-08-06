@@ -137,6 +137,7 @@ html,
 body {
   height: 100%;
   font-family: "Titillium Web", sans-serif;
+  background-color: whitesmoke;
 }
 
 h1,
@@ -169,6 +170,10 @@ header nav {
   margin-bottom: 25px;
 }
 
+header nav a {
+  text-decoration: none;
+}
+
 .top-content {
   margin-top: 45px;
   margin-bottom: 45px;
@@ -190,17 +195,18 @@ header nav {
   border: 1px solid black;
   width: 47%;
   padding: 15px;
-  background: whitesmoke;
+  background: white;
   flex-direction: column;
   margin-bottom: 45px;
 }
 
 .card-content button {
   border: 1px solid black;
-  width: 150px;
-  padding: 10px 30px 10px 30px;
+  width: 30%;
+  padding: 10px 10px 10px 10px;
   margin-top: 15px;
   border-radius: 5px;
+  font-size: 1rem;
 }
 
 .bottom-content {
