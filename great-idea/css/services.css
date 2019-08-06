@@ -137,7 +137,7 @@ html,
 body {
   height: 100%;
   font-family: "Titillium Web", sans-serif;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
 }
 
 h1,
@@ -195,7 +195,8 @@ header nav a {
   justify-content: space-between;
 }
 .card-content {
-  border: 1px solid black;
+  border: 1px solid #404040;
+  border-radius: 10px;
   width: 47%;
   padding: 15px;
   background: white;
@@ -204,7 +205,8 @@ header nav a {
 }
 
 .card-content button {
-  border: 1px solid black;
+  border: 1px solid royalblue;
+  color: royalblue;
   width: 30%;
   padding: 10px 10px 10px 10px;
   margin-top: 15px;
@@ -318,4 +320,18 @@ h2 {
   color: royalblue;
   font-size: 1.3rem;
   cursor: default;
+}
+
+h1 {
+  color: royalblue;
+}
+
+h3 {
+  font-size: 1.6rem;
+  color: royalblue;
+}
+
+.card-img {
+  width: 24px;
+  height: 24px;
 }

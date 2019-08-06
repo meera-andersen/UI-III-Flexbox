@@ -183,6 +183,11 @@ header nav a {
   color: royalblue;
 }
 
+header nav a:hover {
+  color: deepskyblue;
+  transition-duration: 0.2s;
+}
+
 .hero {
   margin-top: 40px;
   /* align-items: center; */
@@ -214,7 +219,7 @@ header nav a {
 .hero-text button:hover {
   background-color: royalblue;
   color: white;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   /* transition: all 0.3s ease 0s; */
 }
 
