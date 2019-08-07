@@ -184,7 +184,7 @@ header nav a {
 }
 
 header nav a:hover {
-  color: deepskyblue;
+  color: #48a5ff;
   transition-duration: 0.2s;
 }
 
@@ -211,16 +211,18 @@ header nav a:hover {
   font-size: 20px;
   padding: 5px 40px 5px 40px;
   border-radius: 5px;
-  border-color: royalblue;
-  color: royalblue;
+  background-color: royalblue;
+  color: white;
   cursor: pointer;
+  border: none;
 }
 
 .hero-text button:hover {
-  background-color: royalblue;
+  background-color: #48a5ff;
   color: white;
-  transition-duration: 0.2s;
-  /* transition: all 0.3s ease 0s; */
+  box-shadow: 0 1px 7px 0 rgba(140, 198, 255, 1);
+  transform: translate(0px, -1px);
+  transition-duration: 0.1.5s;
 }
 
 .hero img {
