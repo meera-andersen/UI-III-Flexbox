@@ -236,6 +236,9 @@ header nav a:hover {
   background: white;
   margin-bottom: 45px;
 }
+.card-content a {
+  text-decoration: none;
+}
 
 .card-content:hover {
   transform: translate(-5px, -10px);
@@ -255,7 +258,7 @@ header nav a:hover {
   left: 500px;
 } */
 
-.card-content button {
+/* .card-content button {
   border: 1px solid royalblue;
   color: royalblue;
   width: 30%;
@@ -263,7 +266,7 @@ header nav a:hover {
   margin-top: 15px;
   border-radius: 5px;
   font-size: 1rem;
-}
+} */
 
 .bottom-content {
   margin-top: 30px;
