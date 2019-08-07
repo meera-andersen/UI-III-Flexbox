@@ -194,15 +194,50 @@ header nav a {
   width: 880px;
   justify-content: space-between;
 }
-.card-content {
+/* .card-content {
   border: 1px solid #404040;
+  display: flex;
   border-radius: 10px;
   width: 47%;
   padding: 15px;
   background: white;
-  flex-direction: column;
   margin-bottom: 45px;
 }
+
+.card-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10%;
+}
+
+.card-content .card-img {
+  display: flex;
+  align-self: flex-end;
+  width: 7%;
+} */
+
+.card-content {
+  border: 1px solid #404040;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 47%;
+  padding: 2%;
+  background: white;
+  margin-bottom: 45px;
+}
+
+.card-content .card-img {
+  align-self: flex-end;
+  margin-top: 5%;
+}
+
+/* .card-content .card-img {
+  position: absolute;
+  bottom: 30px;
+  left: 500px;
+} */
 
 .card-content button {
   border: 1px solid royalblue;
