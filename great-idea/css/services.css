@@ -177,6 +177,11 @@ header nav a {
   color: royalblue;
 }
 
+header nav a:hover {
+  color: #48a5ff;
+  transition-duration: 0.2s;
+}
+
 .top-content {
   margin-top: 45px;
   margin-bottom: 45px;
@@ -229,7 +234,7 @@ header nav a {
 }
 
 .card-content:hover {
-  transform: translate(-10px, -10px);
+  transform: translate(-5px, -10px);
   cursor: pointer;
   border: 1px solid royalblue;
 }
